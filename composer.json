@@ -1,0 +1,50 @@
+{
+    "name": "kodekeep/paddle-sdk",
+    "description": ":package_description",
+    "keywords": [
+        "kodekeep",
+        "paddle-sdk"
+    ],
+    "homepage": "https://github.com/kodekeep/paddle-sdk",
+    "license": "MPL-2.0",
+    "authors": [
+        {
+            "name": "Brian Faust",
+            "email": "brian@kodekeep.com",
+            "homepage": "https://kodekeep.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "illuminate/support": "^6.0",
+        "kitetail/zttp": "^0.6.0"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.16",
+        "graham-campbell/analyzer": "^2.4",
+        "phpstan/phpstan": "^0.12.11",
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "KodeKeep\\Paddle\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "KodeKeep\\Paddle\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test:coverage": "vendor/bin/phpunit --coverage-html=.coverage --coverage-clover=clover.xml",
+        "format": "vendor/bin/php-cs-fixer fix ./",
+        "analyse": "vendor/bin/phpstan analyse --memory-limit=2G"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
