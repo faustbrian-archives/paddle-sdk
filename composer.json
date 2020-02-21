@@ -1,6 +1,6 @@
 {
     "name": "kodekeep/paddle-sdk",
-    "description": ":package_description",
+    "description": "Feature complete Paddle SDK for PHP",
     "keywords": [
         "kodekeep",
         "paddle-sdk"
