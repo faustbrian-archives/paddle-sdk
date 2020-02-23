@@ -1,0 +1,19 @@
+{
+    "alert_id": "1596842651",
+    "alert_name": "subscription_cancelled",
+    "cancellation_effective_date": "2020-03-23 04:35:11",
+    "checkout_id": "9-3a2a75b02de61cf-ad088c916b",
+    "currency": "USD",
+    "email": "lynch.chandler@example.com",
+    "event_time": "2020-02-23 08:49:09",
+    "linked_subscriptions": "1, 5, 6",
+    "marketing_consent": "1",
+    "passthrough": "Example String",
+    "quantity": "59",
+    "status": "deleted",
+    "subscription_id": "2",
+    "subscription_plan_id": "6",
+    "unit_price": "unit_price",
+    "user_id": "3",
+    "p_signature": "KGgaAbi1Kfuus0WAwCOL7M/EJpB5KPmt935C7iAG+pX+pY0f3V3/Rd/jfZ/xuN29guvfOAu5k4gYt1UyJXGW8SRdLmn+BnYg7TVXltkIxu3OjtUFbp7u/+Ec8NwEQnh3dSdGBnsOvA5Uxq1Js0YngZad2B3YTGPputHDBNgoD9KprHLsrCyGoaIU5uQD3ygN/HUdm2k9qOV7VqX1KD1ZJYF1u2PzTKaQSDsnuETYB1Xo0TVgtGb5coTX3hV5wCVvvmO7wlmxx3XmYNsOVhg1u62dHhlBOp4cY1bGN4LqLqDE4FlpAG2rMRwD2tQIwAaBsOp9Z9nEcOjuDEIcK5uEzLWq2HrAnNIJoP9wesJ57EiAwt6Jc6z8icrfMxnu/EJdiGBLlWmmgz2bd37POxRWrfTnX/U4cVaW6hEuOlY0fJ+U38y8Tpv7raItVvHQ/1yRQ2OOMX3ayFCeMusRde4mP5htbp+PFiE9A0V4woSTdszcygjzLbe7+KRTIRAiAaNyivNFNppMgobG7RJ65rpTg0j2CK+0XqtVHYAAAQMQM4YiqcQ3Bu9HcSpLfcH0f4HeqQ9tSxqmMW7qTMUTqWdzxPtyQHGKst0ONMZGUHL/WhjLp251gaNEXy/lFQI3E+j2jxT87hZGY12XtUqWnEM6GmOehTCy8ix4kotsGy1trjE="
+}

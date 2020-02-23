@@ -1,0 +1,15 @@
+{
+    "alert_id": "1310425210",
+    "alert_name": "payment_dispute_created",
+    "amount": "462.52",
+    "checkout_id": "7-1083d8b8ac6f7de-517efc07da",
+    "currency": "GBP",
+    "email": "mafalda.stracke@example.com",
+    "event_time": "2020-02-23 08:48:37",
+    "fee_usd": "0.38",
+    "marketing_consent": null,
+    "order_id": "7",
+    "passthrough": "Example String",
+    "status": "open",
+    "p_signature": "e+Z/DmjAuARaunUwk7QmzbuX6J9a8dcS4KF+o/om6R9BlW1HFy4Skt8HjcGxx8CWgquzgDQsqFpAqtjr7P0pdziCFYq2+gcbqTTPFdUwUoH+jsiCpuEiCX4JQe4EjMH7cp0sx9Rqch0aodYXFXnShjR86wQq9jRLOq3GUSQP0C2n+gd+VRaiagpepjGSGx8miDTgiiDk9bdWoW3pJoK0kerTSZW5bVgWKY1Rh8fZXoaFUVQCmIxJZwpqsESaMk8r1y4isCyxsHbV4Fzj6jTMda8Dll4GOeuqlvCipzVE0i816cqg+ReGPpkmsHLAaMqnFMIOah3ep7HhmQf/El+NYemLWQqWoT+bmcH1GdrSloGiyIEqit9nfjeuD1eT/kTTYqsjgrRQfJAGXNyJOkJm5Rbzu05BaI4HBF+QgE6AHGMZYW1mtzPppmaAgufvbVS+LPxT+Fa/PqIYWTknERxXmZbDWbGeU9iFb59PSBeawM2n2o1pxLSUNNRagixuWVT4i5b0aaiLu33P4QDIXZYzNm4UC4+mIO9RuKtjoQJenupOj6SkQzLtJXyMNr1TKT8/y9hLQxP5xXI1Hj0WfVORSNulMaCV67XIulchlDmyrYi4a7vPfxM0Fjci3mzPw3e7LKi726F6I8BseV8IMCQUz+Bd/wX7siz1c4MWifHsqJk="
+}

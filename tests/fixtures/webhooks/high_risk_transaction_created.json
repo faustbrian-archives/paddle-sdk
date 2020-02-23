@@ -1,0 +1,16 @@
+{
+    "alert_id": "1707800168",
+    "alert_name": "high_risk_transaction_created",
+    "case_id": "case_id",
+    "checkout_id": "4-2eb005652e0f323-301fe657d2",
+    "created_at": "2020-02-23 08:49:50",
+    "customer_email_address": "customer_email_address",
+    "customer_user_id": "customer_user_id",
+    "event_time": "2020-02-23 08:49:53",
+    "marketing_consent": "1",
+    "passthrough": "Example String",
+    "product_id": "3",
+    "risk_score": "risk_score",
+    "status": "status",
+    "p_signature": "OIWLGyWknsdjdllt1HNVBp4P7KysnqIH42b6vvbKEod/yZ6Du6GJJwk5kDO/OAjEBL1BREAFIZP3elEHSxoEkYQJNR6OAJT1wUtccmJu2te9Qy3XKcWaLDH8IOUJjEmFxUA3eC2XTbdtAYUiaJdYVjzEF1gUuilK6BQlXgdrDJPKM/RqVOD62JcwuFuXk/a9sXPskJOmojJjhVBx0384tYGv7X74TjwheKndVveQa7wWSXZGQtZnXPKD1erFWIZcF4yxkNCA/dPHSSoouautuVHEDmyXiEkwa0UnmqtXMovQbyh/n57vOij3gOAauWcs3WQwlXkmH8QXHrC4VMRfBYHGepwhjSmDWvBQSHTGED4JOs04MRoypE6VcuPH64xcLcJwPV1JHvk0AbiNMoLkTp9H5b5ERpew8+DOTH0YTcrta2ivTlEmn8T8Dlnttr2TJdiSSFAQVs7EEGDZ/5fzeor7uQ5v9157rkj/zbnEgTmffwJCZAish3svyls5EpP9j29k3RfEGDa3q1NY7qLh/JkWQfGSULTjJ0EE2nr8xPcKwnoWyWRwalZH4EjHy82eloqBXu4tkeKdpzcykyJDCfQjPLqm7vyLFupV9p43qLy3HZJlPofnFt2nZVESpa5SwuYcrgSuEGYRFqCz/qBfN8ik7tHxC8+vE8zqUSRzLjI="
+}

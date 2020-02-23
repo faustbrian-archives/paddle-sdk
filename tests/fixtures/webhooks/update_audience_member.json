@@ -1,0 +1,14 @@
+{
+    "alert_id": "579465539",
+    "alert_name": "update_audience_member",
+    "event_time": "2020-02-23 08:49:47",
+    "new_customer_email": "ivonrueden@hotmail.com",
+    "new_marketing_consent": "1",
+    "old_customer_email": "desiree80@gmail.com",
+    "old_marketing_consent": "1",
+    "products": "283860,275092,187991",
+    "source": "Trial",
+    "updated_at": "2020-02-23 08:49:45",
+    "user_id": "8",
+    "p_signature": "pqlYXo3aGJlROTLUdzFHuhDYF6+Ih3Iwx9fZRI8mZ0W3j22XxMDZmf+7c3vsVoavlaEm3s5+Q0uR6SYM/3L/sHcq2db/qJxPJjMNNdY/1/P6uBHfgeZwRAKl3ZJ+aJVoKOgDrPH7bBde0X1P72++GXf7YHvX/7wlbHg4YXeD5rlZs0OFk9ipJt6aGwM4LBbkvCDi9P6ZaL9btLKKal6UaF1tvWJqLev8chJa15oV8hRT9rO61+V3bJK8v/gF5NxBLohONvvG6w0o/+HEdS9RdnErkDCC8uEUVvFWcVVM+8yekjqVY27EuZ5+IduXX6o04+KQgLfWjZyLx2+WV9/NtSXfLhX2UV6X18DiB7bn2HIm06h7VdljeVfnfh+Nrfc5WyOfwz+hicRQWZNP4KlPeS92BRCNSHQiG6j/+8AuSvOaI2Ixy+2N1/IzlngbQV/njP5bPCfDU8X3GzB6IeGXgHF/Pg9pyOMid+OYXnjiFzpv1j9LUTIqIE9SdcAt1/WZyuFMA0abAUJUjUAClDN3F11y2usEO5xg+dOTk4ESq8paAaC4VtCMoeksRuK+j1F4ixmFx7BJurswF+18IuAGR3p5VU2z1oODJpDuvhVsVkNGCigtYkKkPI0+Sy+ZKneoKWAOcF6+uCymaTv0H8ijNkuNJ6GsCQ/4kF3GC0oNq9s="
+}

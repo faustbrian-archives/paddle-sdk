@@ -1,0 +1,15 @@
+{
+    "alert_id": "1308645101",
+    "alert_name": "payment_dispute_closed",
+    "amount": "319.43",
+    "checkout_id": "6-6b1b959901ba099-8bb7c5453e",
+    "currency": "EUR",
+    "email": "fhand@example.org",
+    "event_time": "2020-02-23 08:48:43",
+    "fee_usd": "0.08",
+    "marketing_consent": "1",
+    "order_id": "4",
+    "passthrough": "Example String",
+    "status": "closed",
+    "p_signature": "BSpSoa61v9VmQA5PkFqRUwAJGh5BCLb6j9VY/fp6pwXNjMy3eS0JRon6fJGEnLDnXQEYNt3GHWbuAXqBgif3AhmKc3q5e04ysfbwAFdUxZzf/veevi0jMiSeMR/0eVGsIsbwTvsggViwn9tWxCiVsfuxUpCpWwcivL7MmyKLgXAsyvW8sAfDKZW0JqxqppZc6gw8yhRFg/ut+JnRbXcg7eirHZywdexuXX8OVc4kaj7TjCugUYdMqIhTl6iDOEtsKAb+vJeUXaz2FndxXANRYD9PFvEixPOsscAwy1lnEISYYUZblfAxALKK99gxo1WFR6+aPOk593ZBpzo0bCNzPI2tKK/BzGd3cKChqXiQaJhTRDQpieX+l70JDdyWGAf0Jm1nkW418BFyqEd9bsV6Ea5iAsyIgyTizgdwZOYJsT8//WK08neDJAFWxF8P6BFQzIBMHjg+DQ1HZ2YWnIR0oWbb8FcpWcYsGX644+IdTw+TnW7GaUebxk3AMFZ5RCjC1btxa4gQk0cp9g5WfpbVIOskwAtJNaKgdy56eNY+BVnSVXXMdHXpL6j7KnQPx4F24lRiBJpt4oSiksXo9TSGvgm/t9rv0vbmnQGNzooozs45QCvUuvg5Ma15ApDv3gFyM4B2wTA5c9mv9EGbIpGSsyHXAPYQ003cWnEjMy1SH1I="
+}

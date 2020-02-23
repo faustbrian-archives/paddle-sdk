@@ -1,0 +1,13 @@
+{
+    "alert_id": "728322312",
+    "alert_name": "new_audience_member",
+    "created_at": "2020-02-23 08:49:40",
+    "email": "dthompson@example.com",
+    "event_time": "2020-02-23 08:49:42",
+    "marketing_consent": "1",
+    "products": "61568,22247,355146",
+    "source": "Import",
+    "subscribed": "true",
+    "user_id": "6",
+    "p_signature": "o23ejn5Lee5P193MjY4vT6UXfbmVLQoJKYW90b3GP4A723dpSCxJnCOd4DRnmkLJAW7iCHsvQhTBhAQO5rJDwDRJHJwHMY47lJhTLTKEbI9BLzaiNsIOMH0WZZmviNLX8/UUCQcHrCSpeej2Hawk0AFk4hpGw5Y6psXTF4YG75FUfpq5tx4rjJBA96rMdHGiHfUnMva8qo9AIXyXJqT9skE5/okEdUXr2KYfyI/LZ7FcVQEJOWDdEKcerh4oNK/+0jC3m9jrz3rSh851Mdr7PiR7N1sJEJ/OGtW/CfGhN3hOkV2gGipzTiMxQmAj/WpFDppusn9h1/glEn56zE6vl1W1GfPW0YJ3Q8becKKq3PuQEBpxJgP9TfAUushLHt5D8naQAN5mZvFkYmJ7n+TvDpr1ARgf6nD3Jw6FwHdvfUiXfL4QHysaAm1ccr++g8IKCz8gsufgHFCiAgFqj7Geb6IDzLppUi3gys2wT4yZRoq66cfA0nU0aoSQhb08N9MUO2EpfxiONiaXhkvjJ4CaX1SarJuuZc75gyDs1gbm4TyteFZN/bFhTXOO7jxc2QqMQictzTACt276bmmruACc8my+Pf0l/ZJOKVKhK31rLkondvF6lBRJju5r0mY5M20h2NAAWnszwQ/hG4s+evXgyVH5pGv7da+kJn8ssvF2syg="
+}
