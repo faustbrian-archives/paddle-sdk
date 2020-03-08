@@ -14,7 +14,6 @@ declare(strict_types=1);
 namespace KodeKeep\Paddle\Exceptions;
 
 use Exception;
-use KodeKeep\Paddle\ErrorCodes;
 
 final class RequestException extends Exception
 {
@@ -25,12 +24,6 @@ final class RequestException extends Exception
 
     public static function fromResponse(array $response): self
     {
-        $errorCode = $response['error']['code'];
-
-        if (! ErrorCodes::has($errorCode)) {
-            throw new static('Unknown error encountered.');
-        }
-
-        return new static("[{$errorCode}] {$response['error']['message']}");
+        return new static("[{$response['error']['code']}] {$response['error']['message']}");
     }
 }
