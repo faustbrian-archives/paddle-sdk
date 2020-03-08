@@ -60,6 +60,10 @@ abstract class Endpoint
             throw RequestException::fromResponse($body);
         }
 
+        if ($body['success'] === true && empty($body['response'])) {
+            return [];
+        }
+
         return $body['response'];
     }
 }
