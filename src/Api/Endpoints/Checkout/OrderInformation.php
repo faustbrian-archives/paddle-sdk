@@ -17,6 +17,8 @@ use KodeKeep\Paddle\Api\Endpoints\Endpoint;
 
 class OrderInformation extends Endpoint
 {
+    protected string $baseUrl = 'https://checkout.paddle.com/api/';
+
     /**
      * @see https://developer.paddle.com/api-reference/checkout-api/order-information/getorder
      */

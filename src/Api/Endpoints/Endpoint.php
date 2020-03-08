@@ -13,15 +13,16 @@ declare(strict_types=1);
 
 namespace KodeKeep\Paddle\Api\Endpoints;
 
+use Illuminate\Support\Str;
 use KodeKeep\Paddle\Client;
 use KodeKeep\Paddle\Exceptions\RequestException;
 use Zttp\PendingZttpRequest;
 
 abstract class Endpoint
 {
-    private string $baseUrl = 'https://vendors.paddle.com/api/';
+    protected string $baseUrl = 'https://vendors.paddle.com/api/';
 
-    private Client $client;
+    protected Client $client;
 
     public function __construct(Client $client)
     {
@@ -56,7 +57,11 @@ abstract class Endpoint
 
         $body = $response->json();
 
-        if (empty($body['success'])) {
+        if (Str::contains($path, '1.0')) {
+            return $body;
+        }
+
+        if ($body['success'] === false) {
             throw RequestException::fromResponse($body);
         }
 
