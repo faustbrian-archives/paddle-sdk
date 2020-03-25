@@ -20,7 +20,7 @@ class Transactions extends Endpoint
     /**
      * @see https://developer.paddle.com/api-reference/product-api/transactions/listtransactions
      */
-    public function all(string $entity, string $id, array $data = []): array
+    public function all(string $entity, int $id, array $data = []): array
     {
         return $this->post("/2.0/{$entity}/{$id}/transactions", $data);
     }
