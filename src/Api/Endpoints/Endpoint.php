@@ -49,7 +49,7 @@ abstract class Endpoint
 
         $response = Http::{$method}($this->baseUrl.ltrim($path, '/'), $data);
 
-        if (! $response->failed()) {
+        if ($response->failed()) {
             throw RequestException::unexpectedStatusCode($response->status());
         }
 
