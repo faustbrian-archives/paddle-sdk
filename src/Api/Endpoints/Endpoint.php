@@ -13,10 +13,10 @@ declare(strict_types=1);
 
 namespace KodeKeep\Paddle\Api\Endpoints;
 
+use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Str;
 use KodeKeep\Paddle\Client;
 use KodeKeep\Paddle\Exceptions\RequestException;
-use Zttp\PendingZttpRequest;
 
 abstract class Endpoint
 {
@@ -41,17 +41,15 @@ abstract class Endpoint
 
     private function sendRequest(string $method, string $path, array $data): array
     {
-        $client = PendingZttpRequest::new()->asFormParams();
-
         $data['vendor_id'] = $this->client->getVendorId();
 
         if ($method === 'post') {
             $data['vendor_auth_code'] = $this->client->getVendorAuthCode();
         }
 
-        $response = $client->$method($this->baseUrl.ltrim($path, '/'), $data);
+        $response = Http::{$method}($this->baseUrl.ltrim($path, '/'), $data);
 
-        if (! $response->isSuccess()) {
+        if (! $response->failed()) {
             throw RequestException::unexpectedStatusCode($response->status());
         }
 
